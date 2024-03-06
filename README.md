@@ -10,7 +10,7 @@
 Author: Daniel Huynh
 
 ## Statement
-This information can be used to develop, understand, and implement two types of process schedulers (SJF and SRT). It takes arrival time, burst time, and priority as inputs into a user desired amount of process structs meant to imitate an actual process. The scheduler works by keeping track of a running time and determining the next minmalist process within a user desired list to execute next dependent on the rules of the chosen scheduler.
+This information can be used to develop, understand, and implement two types of process schedulers (SJF and SRT). It takes arrival time, burst time, and priority as inputs into a user desired amount of process structs meant to imitate an actual process. The scheduler works by keeping track of a running time and determining the next shortest process within the list to execute. The determination is dependent on the rules and logic of the chosen scheduler.
 
 ## Usage
 To use this program, follow these steps:
